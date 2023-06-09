@@ -1,0 +1,12 @@
+name: "adam_simmons"
+output_dir: "docs"
+navbar:
+  title: "Adam Simmons"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "RMIT - stats and probability with R"
+      href: applied_analytics.html
+output:
+  html_document:
+    theme: cosmo
