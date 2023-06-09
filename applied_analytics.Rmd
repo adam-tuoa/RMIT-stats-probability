@@ -1,11 +1,15 @@
 ---
 title: "MATH2406 Applied Analytics"
+knit: (function(input_file, encoding) {
+  out_dir <- 'docs';
+  rmarkdown::render(input_file,
+    encoding=encoding,
+    output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
 author: "Adam Simmons - student ID: s4001341"
 subtitle: "Assessment 2: Applied Data Project"
 date: "4 June 2023"
-output:
-  html_document:
-    df_print: paged
+output: html_document
+    
 ---
 
 
